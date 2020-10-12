@@ -1,0 +1,36 @@
+#main {
+    margin: 0;
+}
+
+#title {
+    color: rgba(100, 100, 255, 0.35);
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+    font-family: "Lobster Two";
+    font-size: 35px;
+}
+
+#image {
+    border: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#img-div {
+
+}
+
+#img-caption {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#tribute-info {
+    
+}
