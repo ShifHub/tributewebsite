@@ -3,13 +3,24 @@
 }
 
 #title {
-    color: rgba(100, 100, 255, 0.35);
+    color: rgba(0, 40, 165, 1);
     position: absolute;
-    left: 50%;
+    left: 40%;
     top: 30px;
     transform: translateX(-50%);
     font-family: "Lobster Two";
     font-size: 35px;
+    border-bottom: 3px solid rgba(0, 40, 165, 0.55);
+}
+
+.title {
+    color: rgba(0, 40, 165, 1);
+    position: absolute;
+    left: 38%;
+    top: 30px;
+    transform: translateX(-50%);
+    top: 90px;
+    font-size: 20px;
 }
 
 #image {
@@ -17,20 +28,36 @@
     top: 0;
     left: 0;
     width: 100%;
+    margin: 0;
 }
 
 #img-div {
-
+    margin: 0;
 }
 
-#img-caption {
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-    text-align: center;
+#img-caption-div {
+    transform: translateY(-5px);
+    margin: 0;
+    background-color: black;
+    width: 100%;
+    align-items: center;
     padding-bottom: 25px;
+    vertical-align: middle;
+    height: 20px;
+}
+
+#caption {
+    padding-top: 12px;
+    margin: 0;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    font-style: italic;
 }
 
 #tribute-info {
-    
+    padding-left: 30%;
+    padding-right: 30%;
+    width: 100%;
+    text-align: left;
 }
