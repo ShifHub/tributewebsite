@@ -7,7 +7,7 @@
     color: white;
     position: absolute;
     left: 50%;
-    top: 44px;
+    top: 24px;
     transform: translateX(-50%);
     font-family: "Lobster Two";
     font-size: 1.74vw;
@@ -19,7 +19,7 @@
     position: absolute;
     left: 46.75%;
     transform: translateX(-50%);
-    top: 85px;
+    top: 65px;
     font-size: 14px;
 }
 
@@ -31,13 +31,13 @@
 
 
 
-@media(max-width: 550px) {
+@media(max-width: 650px) {
     .title {
         opacity: 0;
     }
     #title {
         margin-left: 15px;
-        border-bottom:
+        border-bottom: 0px;
     }
 }
 
@@ -83,6 +83,7 @@
     text-align: left;
     width: 50%;
     color: white;
+    min-width: 400px;
 }
 
 #tribute-link {
